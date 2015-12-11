@@ -373,7 +373,7 @@
               <MiscControls>--c99</MiscControls>
               <Define>BLE_STACK_SUPPORT_REQD __STACK_SIZE=4096 __HEAP_SIZE=2048 S132 BOARD_PCA10040 SOFTDEVICE_PRESENT NRF52 FREERTOS</Define>
               <Undefine></Undefine>
-              <IncludePath>../../../../../../../NRF52-SDK/components/softdevice/s132/headers;../../../../../../../NRF52-SDK/components/softdevice/s132/headers/nrf52;../../../../../../../NRF52-SDK/components/softdevice/common/softdevice_handler;.\RTE\Third_Parties\nRF52832_xxAA</IncludePath>
+              <IncludePath>.\RTE\Third_Parties\nRF52832_xxAA;..\..\..\sd132\headers;..\..\..\sd132\headers\nrf52;..\..\..\sd132\common</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
